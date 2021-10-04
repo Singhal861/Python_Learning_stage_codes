@@ -1,0 +1,5 @@
+n = int(input("Enter no. upto which you need"))
+z = int(input("1 for list , 2 for dict & any no. for set"))
+if z == 1: ls = [i for i in range(n+1)]; print(ls)
+elif z == 2: dict = {i:f"item {i}" for i in range(n+1)} ; print(dict)
+else: set = (i for i in range(n+1)) ; print(set)
